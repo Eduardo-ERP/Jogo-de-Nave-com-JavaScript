@@ -1,0 +1,75 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image: url(../img/fundo.jpg);
+}
+.navJog{
+    width: 45px;
+    height: 45px;
+    background-size: cover;
+    background-image: url(../img/nave2.gif);
+    position: absolute;
+}
+#painel h4{
+    margin-bottom: 0px;
+    margin-left: 10px;
+    color: rgb(248, 224, 0);
+    font-size: 2em;
+    margin-top: 0;
+}
+.telaMsg{
+    position: absolute;
+    margin-left: -25%;
+    top: 50px;
+    left: 50px;
+    width: 720px;
+    height: 621px;
+    display: none;
+}
+#medidorPlaneta{
+    border:2px solid #000;
+    width: 300px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+#barraPlaneta{
+    width: 300px;
+    height: 20px;
+    background-color: #55f;
+    border-radius: 20px;
+    
+}
+.tiroJog{
+    width: 6px;
+    height: 6px;
+    background-color: #edff14;
+    border:1px solid #000;
+    border-radius: 6px;
+    position: absolute;
+}
+.bomba{
+    width:40px;
+    height: 40px;
+    background-image: url(../img/Meteoro.gif);
+    position: absolute;
+    background-size: cover;
+}
+.explosaoChao{
+    width: 55px;
+    height: 57px;
+    position: absolute;
+}
+.explosaoAr{
+    width: 55px;
+    height: 57px;
+    position: absolute;
+}
+.telaMsg{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    width: 720px;
+    height: 621px;
+    display: none;
+}
